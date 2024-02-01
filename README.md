@@ -1,9 +1,11 @@
 # McuLink-Mini
-Version of the NXP MCU-Link Debug CMSIS-DAP Debug Probe with KiCad.
+Version of the NXP MCU-Link CMSIS-DAP Debug Probe with KiCad.
 
 This is the work of Dario Scheuber who created this debug probe in a student project (PAIND) at the Lucerne University of Applied Sciences and Arts, under guidance of Prof. Erich Styger.
 
 Many thanks to Dario Scheuber and his work to make this project possible!
+
+A blog article on https://mcuoneclipse.com/ should be published soon.
 
 ## Features
 This is an open hardware version of the NXP MCU-Link CMSIS-DAP debug probe, with following features and differences to the original MCU-Link:
@@ -21,8 +23,11 @@ This is an open hardware version of the NXP MCU-Link CMSIS-DAP debug probe, with
 - Embedded version: copy-paste into your custom board KiCad design
 - BOM/assembly costs ~$12 (100 units)
 
-## Links
+## Folders
+- enclosure: 3D printed enclosure
+- hardware: KiCad and hardware related files
 
+## Links
 - NXP MCU-Link: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcu-link-debug-probe:MCU-LINK
 - KiCad: https://www.kicad.org/
 
