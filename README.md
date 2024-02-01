@@ -22,8 +22,10 @@ This is an open hardware version of the NXP MCU-Link CMSIS-DAP debug probe, with
 - On-Board version: Solder external debug probe on your custom board (castellated pins)
 - Embedded version: copy-paste into your custom board KiCad design
 - BOM/assembly costs ~$12 (100 units)
-- 
+
+
 ![top PCB](images/top.png)
+![bottom PCB](images/bottom.png)
 
 ## Folders
 - enclosure: 3D printed enclosure
