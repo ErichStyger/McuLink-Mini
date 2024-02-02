@@ -3,7 +3,7 @@ Version of the NXP MCU-Link CMSIS-DAP Debug Probe with KiCad.
 Many thanks to *Dario Scheuber* and his work to make this project possible!
 
 ## Background
-This is the work of Dario Scheuber who created this debug probe as student at the Lucerne University of Applied Sciences and Arts at [IET](https://www.hslu.ch/en/lucerne-school-of-engineering-architecture/about-us/organization/institute/engineering-and-technology/elektrotechnik/). The project run under the guidance of Prof. Erich Styger.
+This is the work of Dario Scheuber who created this debug probe as student at the Lucerne University of Applied Sciences and Arts at [IET](https://www.hslu.ch/en/lucerne-school-of-engineering-architecture/about-us/organization/institute/engineering-and-technology/elektrotechnik/). The project was done under the guidance of Prof. Erich Styger.
 
 A blog article on [McuOnEclipse](https://mcuoneclipse.com/) should be published soon.
 
