@@ -593,6 +593,12 @@
     )
   )
 
+  (text "Todo for final v2.2 version:\n- move ESD protection diodes closer to the pins\n- check/swap UART header pins to match RPi debug probe cable\n- Fix DRC errors and warnings\n"
+    (at 182.88 127 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 125914c3-7413-4f71-a5ee-554a73cf31bb)
+  )
+
   (symbol (lib_id "power:GND") (at 73.66 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d1d8afc-68a9-4a22-8c26-1e612509db8d)

@@ -38,7 +38,6 @@
       9,
       10,
       11,
-      12,
       13,
       15,
       16,
@@ -65,7 +64,7 @@
       40
     ],
     "visible_layers": "0000020_80000001",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "mini-MCU-LINK-Integrated.kicad_prl",

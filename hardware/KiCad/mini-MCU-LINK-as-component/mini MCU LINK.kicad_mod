@@ -49,8 +49,8 @@
     (thermal_bridge_angle 45) (tstamp df4bc6c0-6552-47d4-aa6a-46e2455d82a5))
   (pad "7" smd roundrect (at 46.3 -15.375) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp e857213b-bb80-4c74-b15f-0be6bb66ba81))
-  (model "G:/Meine Ablage/Schule/5_Semester/PAIND/KiCad/Bauteil/mini-MCU-LINK.step"
-    (offset (xyz 0.5 0.5 0))
+  (model "C:/Users/erich/Data/GitRepos/McuLink-Mini/hardware/KiCad/mini-MCU-LINK-as-component/mini-MCU-LINK.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
