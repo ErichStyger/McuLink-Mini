@@ -5,7 +5,7 @@ Many thanks to *Dario Scheuber* and his work to make this project possible!
 ## Background
 This is the work of Dario Scheuber who created this debug probe as student at the Lucerne University of Applied Sciences and Arts at [IET](https://www.hslu.ch/en/lucerne-school-of-engineering-architecture/about-us/organization/institute/engineering-and-technology/elektrotechnik/). The project was done under the guidance of Prof. Erich Styger.
 
-A blog article on [McuOnEclipse](https://mcuoneclipse.com/) should be published soon.
+See blog article on https://mcuoneclipse.com/2024/02/06/versatile-oshw-mini-mcu-link-debug-probe-external-on-board-or-embedded/ for additional details.
 
 ## Features
 This is an open hardware version of the NXP MCU-Link CMSIS-DAP debug probe, with following features and differences to the original MCU-Link:
@@ -31,8 +31,6 @@ This is an open hardware version of the NXP MCU-Link CMSIS-DAP debug probe, with
 - hardware: KiCad and hardware related files
 
 ## Links
+- Article: https://mcuoneclipse.com/2024/02/06/versatile-oshw-mini-mcu-link-debug-probe-external-on-board-or-embedded/
 - NXP MCU-Link: https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcu-link-debug-probe:MCU-LINK
 - KiCad: https://www.kicad.org/
-
-
-
