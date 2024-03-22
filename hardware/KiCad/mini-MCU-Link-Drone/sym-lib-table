@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "mculink")(type "KiCad")(uri "${KIPRJMOD}/mculink.kicad_sym")(options "")(descr "local symbol library for McuLink"))
-  (lib (name "mcuoneclipse")(type "KiCad")(uri "${MCUONECLIPSE}/symbols/xc6206-3.3v.kicad_sym")(options "")(descr ""))
-)

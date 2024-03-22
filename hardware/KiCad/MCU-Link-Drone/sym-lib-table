@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mculink_kicad")(type "Legacy")(uri "${KIPRJMOD}/mculink_kicad.lib")(options "")(descr ""))
+  (lib (name "mculink_kicad-rescue")(type "KiCad")(uri "${KIPRJMOD}/mculink_kicad-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "TC2030-IDC-NL")(type "Legacy")(uri "${KIPRJMOD}/TC2030-IDC-NL.lib")(options "")(descr ""))
+  (lib (name "McuOnEclipse")(type "KiCad")(uri "${MCUONECLIPSE}/symbols/McuOnEclipse.kicad_sym")(options "")(descr ""))
+  (lib (name "tinyk20")(type "KiCad")(uri "${MCUONECLIPSE}/tinyk20.kicad_sym")(options "")(descr ""))
+)
