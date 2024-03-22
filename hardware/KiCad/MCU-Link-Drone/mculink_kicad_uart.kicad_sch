@@ -2096,7 +2096,7 @@
 	)
 	(text "UART Interface to Target"
 		(exclude_from_sim no)
-		(at 158.75 21.59 0)
+		(at 167.64 21.59 0)
 		(effects
 			(font
 				(size 2.54 2.54)

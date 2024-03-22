@@ -36,3 +36,6 @@ output/*
 
 # lock files
 *.lck
+
+*auto_saved_files*
+

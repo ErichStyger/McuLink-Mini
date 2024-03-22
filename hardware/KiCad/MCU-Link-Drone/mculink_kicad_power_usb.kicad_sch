@@ -11809,7 +11809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mculink:GCT_USB4110-GF-A_REVB"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at -62.23 198.12 0)
 			(effects
 				(font

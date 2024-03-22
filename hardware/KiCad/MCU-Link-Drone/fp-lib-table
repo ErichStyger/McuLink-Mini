@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name mculink_kicad)(type KiCad)(uri ${KIPRJMOD}/mculink_kicad.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "mculink_kicad")(type "KiCad")(uri "${KIPRJMOD}/mculink_kicad.pretty")(options "")(descr ""))
+  (lib (name "McuOnEclipse")(type "KiCad")(uri "${MCUONECLIPSE}/footprints")(options "")(descr ""))
 )
