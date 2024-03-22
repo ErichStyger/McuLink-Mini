@@ -4956,7 +4956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "McuOnEclipse:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 50.8 170.18 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "McuOnEclipse:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 92.71 170.18 0)
 			(effects
 				(font

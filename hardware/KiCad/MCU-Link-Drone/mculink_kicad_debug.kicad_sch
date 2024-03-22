@@ -5649,7 +5649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 52.07 92.71 0)
 			(effects
 				(font
@@ -5887,7 +5887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mculink_kicad:SWD_Pin_Header_Straight_2x05_Pitch1.27mm_SMD"
+		(property "Footprint" "McuOnEclipse:SWD_Pin_Header_Straight_2x05_Pitch1.27mm_SMD_Shrouded"
 			(at 227.33 68.58 0)
 			(effects
 				(font
@@ -7728,7 +7728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 52.07 130.81 0)
 			(effects
 				(font
@@ -8335,7 +8335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 52.07 168.91 0)
 			(effects
 				(font

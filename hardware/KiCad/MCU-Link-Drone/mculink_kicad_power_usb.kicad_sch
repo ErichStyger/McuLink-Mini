@@ -11809,7 +11809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "McuOnEclipse:USB_C_Receptacle_GCT_USB4110-GF-A"
 			(at -62.23 198.12 0)
 			(effects
 				(font
