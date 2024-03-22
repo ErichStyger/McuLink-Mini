@@ -4456,7 +4456,7 @@
 			(uuid "42cbcba6-eea4-4c9e-83a4-6866601cea9d")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "U1")
 					(unit 3)
@@ -4712,7 +4712,7 @@
 			(uuid "328ca1ba-ce07-4414-80c3-b3b876b41cb7")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "U1")
 					(unit 4)
@@ -4779,7 +4779,7 @@
 			(uuid "cdac9505-815e-49af-b4df-5f3043a61ce8")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "R3")
 					(unit 1)
@@ -4844,7 +4844,7 @@
 			(uuid "b6eada6a-e53e-462d-abcc-1b1c97e7058b")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR035")
 					(unit 1)
@@ -4920,7 +4920,7 @@
 			(uuid "8e097a2d-f2db-4cf2-bc3f-57d57b7326b0")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "J8")
 					(unit 1)
@@ -4990,7 +4990,7 @@
 			(uuid "c5d5c631-68e9-4b9b-9799-80571b669aba")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "J4")
 					(unit 1)
@@ -5060,7 +5060,7 @@
 			(uuid "6f392073-f57b-4db1-b237-35997cbe5dff")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "J5")
 					(unit 1)
@@ -5125,7 +5125,7 @@
 			(uuid "5217b908-4bed-4721-8725-061ce7c8b61a")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR043")
 					(unit 1)
@@ -5190,7 +5190,7 @@
 			(uuid "3ba053b5-4544-4c9f-aef8-1b5a92907c54")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR044")
 					(unit 1)
@@ -5259,7 +5259,7 @@
 			(uuid "7c6a1939-9477-47b5-b725-bc5bf891d258")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "LED1")
 					(unit 1)
@@ -5328,7 +5328,7 @@
 			(uuid "6749fc4a-79c7-4b5a-a6e2-dadeae3e529b")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "R8")
 					(unit 1)
@@ -5393,7 +5393,7 @@
 			(uuid "568bd995-030f-4816-9464-a7e66e453e87")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR042")
 					(unit 1)
@@ -5462,7 +5462,7 @@
 			(uuid "66da3958-bd10-4b8f-9f96-6ffc4fdd9cae")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "J3")
 					(unit 1)
@@ -5527,7 +5527,7 @@
 			(uuid "7fb17f37-a4a7-4043-86dd-b629d7ea07d4")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR039")
 					(unit 1)
@@ -5603,7 +5603,7 @@
 			(uuid "39c81123-a819-4b13-859f-b709e94e3dda")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "SW1")
 					(unit 1)
@@ -5668,7 +5668,7 @@
 			(uuid "8c5c04d7-eca8-4a22-bf3e-9e75fb957e13")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR040")
 					(unit 1)
@@ -5733,7 +5733,7 @@
 			(uuid "6649d6c0-c5ff-4013-a932-0106f4261e40")
 		)
 		(instances
-			(project "mculink_kicad"
+			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR041")
 					(unit 1)
