@@ -1,4 +1,4 @@
-23312134667937008
+23313845940858337
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63685,6 +63685,13 @@ LPS3015-152MRB
 0
 2
 2
+McuOnEclipse
+LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/adv7611.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+90
+65
 McuOnEclipse
 LQFP-64_10x10mm_Pitch0.5mm
 64 LEAD LQFP 10x10mm (see MICREL LQFP10x10-64LD-PL-1.pdf)

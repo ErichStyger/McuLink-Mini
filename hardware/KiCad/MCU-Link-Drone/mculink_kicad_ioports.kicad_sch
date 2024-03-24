@@ -444,231 +444,6 @@
 				)
 			)
 		)
-		(symbol "mculink_kicad-rescue:Conn_01x04_Male-Connector"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector_Conn_01x04_Male"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Male-Connector_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "mculink_kicad:KMR221GLFS"
 			(pin_names
 				(offset 1.016)
@@ -2774,6 +2549,14 @@
 		(uuid "039043eb-500d-4cc8-8526-2e0e5cd454cd")
 	)
 	(no_connect
+		(at 44.45 134.62)
+		(uuid "0b1eb4e4-8034-4d0b-bdbc-f917dc45f5c8")
+	)
+	(no_connect
+		(at 44.45 132.08)
+		(uuid "0b2d2bd0-4324-41ab-b4ab-d09bafa27909")
+	)
+	(no_connect
 		(at 44.45 81.28)
 		(uuid "1342f36d-a91a-4e23-85b2-b76a90dc18eb")
 	)
@@ -2806,6 +2589,10 @@
 		(uuid "906e24cd-ceb2-4aa9-a9d8-0e9d2476ee2b")
 	)
 	(no_connect
+		(at 44.45 137.16)
+		(uuid "a0d53299-80dc-4309-bfa3-f505df370e41")
+	)
+	(no_connect
 		(at 44.45 93.98)
 		(uuid "b9ca955b-6e68-488d-aa8b-0c2c245ec613")
 	)
@@ -2820,6 +2607,10 @@
 	(no_connect
 		(at 44.45 101.6)
 		(uuid "daafac7b-60b8-4716-9630-9bbdab66c063")
+	)
+	(no_connect
+		(at 44.45 139.7)
+		(uuid "f523e9a2-c808-4027-a47f-968b45d55515")
 	)
 	(no_connect
 		(at 44.45 68.58)
@@ -2844,16 +2635,6 @@
 			(type default)
 		)
 		(uuid "11d53d5f-0cea-46b0-b96f-6db9df7d8a74")
-	)
-	(wire
-		(pts
-			(xy 44.45 139.7) (xy 50.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16746b27-97b9-45bb-b42c-ad67e1f7a6d5")
 	)
 	(wire
 		(pts
@@ -2967,16 +2748,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 132.08) (xy 50.8 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b894f0-0886-495f-90af-3b96e44d977d")
-	)
-	(wire
-		(pts
 			(xy 143.51 189.23) (xy 140.97 189.23)
 		)
 		(stroke
@@ -3087,16 +2858,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.62) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7d7d5d6-9c02-4647-955f-5b0348b7bf37")
-	)
-	(wire
-		(pts
 			(xy 223.52 118.11) (xy 222.25 118.11)
 		)
 		(stroke
@@ -3184,16 +2945,6 @@
 			(type default)
 		)
 		(uuid "f025fc25-9a72-4e4a-8ea5-dc1cb6116cf8")
-	)
-	(wire
-		(pts
-			(xy 44.45 137.16) (xy 50.8 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48c4cd0-aa4e-47ef-a7c4-5db88e7be3b8")
 	)
 	(image
 		(at 200.66 170.18)
@@ -4233,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm_ThermalVias"
+		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm"
 			(at 33.02 19.05 0)
 			(effects
 				(font
@@ -4489,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm_ThermalVias"
+		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm"
 			(at 33.02 86.36 0)
 			(effects
 				(font
@@ -4847,82 +4598,6 @@
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mculink_kicad-rescue:Conn_01x04_Male-Connector")
-		(at 55.88 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006042c156")
-		(property "Reference" "J8"
-			(at 56.5912 135.2804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Male"
-			(at 56.5912 137.5918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
-			(at 55.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7eb3caeb-f698-472f-ab90-df0311a17498")
-		)
-		(pin "2"
-			(uuid "d5e7b1e9-17ee-46c1-adb4-4e1ef91dbedc")
-		)
-		(pin "3"
-			(uuid "499ffeef-c032-463a-adab-c6699a931536")
-		)
-		(pin "4"
-			(uuid "8e097a2d-f2db-4cf2-bc3f-57d57b7326b0")
-		)
-		(instances
-			(project "mculink_drone_kicad"
-				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
-					(reference "J8")
 					(unit 1)
 				)
 			)

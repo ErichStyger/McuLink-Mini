@@ -5875,7 +5875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm_ThermalVias"
+		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm"
 			(at 186.69 24.13 0)
 			(effects
 				(font
@@ -6133,7 +6133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm_ThermalVias"
+		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -11344,7 +11344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.118 172.72 90)
 			(effects
 				(font
@@ -11935,7 +11935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.928 172.72 90)
 			(effects
 				(font
