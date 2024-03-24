@@ -1,4 +1,4 @@
-23303402328358558
+23312134667937008
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63518,6 +63518,13 @@ CR2032_Renata
 3
 2
 McuOnEclipse
+CX3225GA16000D0PTVCC
+
+
+0
+2
+2
+McuOnEclipse
 C_0402
 Capacitor SMD 0402 (1005 Metric)
 capacitor
@@ -63593,7 +63600,7 @@ Circular Fiducial, 1mm bare copper top; 2.54mm keepout
 marker
 0
 1
-1
+0
 McuOnEclipse
 Hochschule_Luzern_New
 
@@ -63615,6 +63622,27 @@ IC-SOT25
 0
 5
 5
+McuOnEclipse
+JST_SH_BM08B-SRSS-TB_1x08-1MP_P1.00mm_Vertical
+JST SH series connector, BM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH vertical
+0
+10
+9
+McuOnEclipse
+JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal
+JST SH series connector, SM06B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+8
+7
+McuOnEclipse
+JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal
+JST SH series connector, SM10B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal, Pixhawk debug full
+0
+12
+11
 McuOnEclipse
 Joystick
 SKRHAAE010
@@ -63902,6 +63930,13 @@ SWD_Pin_Header_Straight_2x05_Pitch1.27mm_SMD_Shrouded
 0
 10
 10
+McuOnEclipse
+SW_C_K_KMR2
+
+
+0
+5
+5
 McuOnEclipse
 SW_SPST_KMR2_Small
 CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf

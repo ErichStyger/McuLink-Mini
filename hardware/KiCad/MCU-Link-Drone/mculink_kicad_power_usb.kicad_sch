@@ -7201,7 +7201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mculink_kicad:CX3225GA16000D0PTVCC"
+		(property "Footprint" "McuOnEclipse:CX3225GA16000D0PTVCC"
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -10614,7 +10614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-5"
+		(property "Footprint" "McuOnEclipse:SOT-89-5"
 			(at 54.61 82.55 0)
 			(effects
 				(font

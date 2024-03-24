@@ -89,6 +89,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -764,7 +846,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 33.02 97.79 0)
+		(at 123.19 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -772,7 +854,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060799366")
 		(property "Reference" "H1"
-			(at 35.56 96.5454 0)
+			(at 125.73 114.3254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +863,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 35.56 98.8568 0)
+			(at 125.73 116.6368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +872,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
-			(at 33.02 97.79 0)
+			(at 123.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 97.79 0)
+			(at 123.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +890,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 33.02 97.79 0)
+			(at 123.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +912,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 54.61 97.79 0)
+		(at 144.78 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -838,7 +920,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006079b3dd")
 		(property "Reference" "H2"
-			(at 57.15 96.5454 0)
+			(at 147.32 114.3254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +929,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 57.15 98.8568 0)
+			(at 147.32 116.6368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +938,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
-			(at 54.61 97.79 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 97.79 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +956,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 54.61 97.79 0)
+			(at 144.78 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +978,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 97.79 0)
+		(at 166.37 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -904,7 +986,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006079b9b5")
 		(property "Reference" "H3"
-			(at 78.74 96.5454 0)
+			(at 168.91 114.3254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +995,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 78.74 98.8568 0)
+			(at 168.91 116.6368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +1004,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
-			(at 76.2 97.79 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +1013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 97.79 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +1022,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 76.2 97.79 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +1044,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 97.79 97.79 0)
+		(at 187.96 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -970,7 +1052,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006079bbee")
 		(property "Reference" "H4"
-			(at 100.33 96.5454 0)
+			(at 190.5 114.3254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +1061,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 100.33 98.8568 0)
+			(at 190.5 116.6368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +1070,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
-			(at 97.79 97.79 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +1079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 97.79 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1088,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 97.79 97.79 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 100.33 0)
+		(at 123.19 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1036,7 +1118,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000607c1830")
 		(property "Reference" "#PWR0104"
-			(at 33.02 106.68 0)
+			(at 123.19 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.147 104.7242 0)
+			(at 123.317 122.5042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 100.33 0)
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 100.33 0)
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 100.33 0)
+			(at 123.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1175,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 100.33 0)
+		(at 144.78 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1101,7 +1183,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000607c2269")
 		(property "Reference" "#PWR0105"
-			(at 54.61 106.68 0)
+			(at 144.78 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1192,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.737 104.7242 0)
+			(at 144.907 122.5042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 100.33 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,7 +1209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 100.33 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 100.33 0)
+			(at 144.78 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1240,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 100.33 0)
+		(at 166.37 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1166,7 +1248,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000607c23c1")
 		(property "Reference" "#PWR0106"
-			(at 76.2 106.68 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.327 104.7242 0)
+			(at 166.497 122.5042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 100.33 0)
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 100.33 0)
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 100.33 0)
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1305,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 100.33 0)
+		(at 187.96 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1231,7 +1313,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000607c2525")
 		(property "Reference" "#PWR0107"
-			(at 97.79 106.68 0)
+			(at 187.96 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.917 104.7242 0)
+			(at 188.087 122.5042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 100.33 0)
+			(at 187.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 100.33 0)
+			(at 187.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 100.33 0)
+			(at 187.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1370,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 33.02 82.55 0)
+		(at 123.19 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1297,7 +1379,7 @@
 		(fields_autoplaced yes)
 		(uuid "771258d2-5f07-4520-81d4-6fb3fe4b6b86")
 		(property "Reference" "FID1"
-			(at 35.56 81.2799 0)
+			(at 125.73 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1388,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 35.56 83.8199 0)
+			(at 125.73 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1397,7 @@
 			)
 		)
 		(property "Footprint" "McuOnEclipse:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
-			(at 33.02 82.55 0)
+			(at 123.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 82.55 0)
+			(at 123.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1415,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 33.02 82.55 0)
+			(at 123.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1434,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 48.26 82.55 0)
+		(at 138.43 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1361,7 +1443,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bde9f13-4da7-486c-afb4-a840f655fc79")
 		(property "Reference" "FID2"
-			(at 50.8 81.2799 0)
+			(at 140.97 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1452,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 50.8 83.8199 0)
+			(at 140.97 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1461,7 @@
 			)
 		)
 		(property "Footprint" "McuOnEclipse:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
-			(at 48.26 82.55 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 82.55 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1479,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 48.26 82.55 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,17 +1497,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 63.5 82.55 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 71.12 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "927d800a-c850-48b5-8b5b-68687e952e56")
-		(property "Reference" "FID3"
-			(at 66.04 81.2799 0)
+		(uuid "90a39b50-9ca5-43d6-9500-a3b28b58cf4c")
+		(property "Reference" "L6"
+			(at 73.66 92.8116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,8 +1514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 66.04 83.8199 0)
+		(property "Value" "Logo HSLU"
+			(at 73.66 95.123 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,8 +1523,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "McuOnEclipse:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
-			(at 63.5 82.55 0)
+		(property "Footprint" "McuOnEclipse:Hochschule_Luzern_New"
+			(at 71.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1533,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 82.55 0)
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 153.67 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "927d800a-c850-48b5-8b5b-68687e952e56")
+		(property "Reference" "FID3"
+			(at 156.21 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 156.21 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "McuOnEclipse:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1606,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 63.5 82.55 0)
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,8 +1623,71 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 71.12 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6198483-357b-4aa5-a865-af6762cbda57")
+		(property "Reference" "L7"
+			(at 73.66 100.4316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Logo HSLU"
+			(at 73.66 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "McuOnEclipse:Hochschule_Luzern_Small"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 25.4 50.8)
+		(at 58.42 45.72)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1491,7 +1699,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00006037dd23")
 		(property "Sheetname" "McuLink Power and USB"
-			(at 25.4 50.0884 0)
+			(at 58.42 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1708,7 @@
 			)
 		)
 		(property "Sheetfile" "mculink_kicad_power_usb.kicad_sch"
-			(at 25.4 64.0846 0)
+			(at 58.42 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1725,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 50.8)
+		(at 109.22 45.72)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1529,7 +1737,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000603cfdf2")
 		(property "Sheetname" "LPC55S69 IO Ports"
-			(at 76.2 50.0884 0)
+			(at 109.22 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1746,7 @@
 			)
 		)
 		(property "Sheetfile" "mculink_kicad_ioports.kicad_sch"
-			(at 76.2 64.0846 0)
+			(at 109.22 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1763,7 @@
 		)
 	)
 	(sheet
-		(at 127 50.8)
+		(at 160.02 45.72)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1567,7 +1775,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000603cff19")
 		(property "Sheetname" "Debug interface"
-			(at 127 50.0884 0)
+			(at 160.02 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1784,7 @@
 			)
 		)
 		(property "Sheetfile" "mculink_kicad_debug.kicad_sch"
-			(at 127 64.0846 0)
+			(at 160.02 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1801,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 50.8)
+		(at 210.82 45.72)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1605,7 +1813,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000603d0055")
 		(property "Sheetname" "UART Interface to Target"
-			(at 177.8 50.0884 0)
+			(at 210.82 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1822,7 @@
 			)
 		)
 		(property "Sheetfile" "mculink_kicad_uart.kicad_sch"
-			(at 177.8 64.0846 0)
+			(at 210.82 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

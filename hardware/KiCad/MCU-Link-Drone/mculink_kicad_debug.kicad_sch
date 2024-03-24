@@ -1638,6 +1638,218 @@
 				)
 			)
 		)
+		(symbol "McuOnEclipse:Pixhawk_Debug_Mini"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at -2.032 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Pixhawk_Debug_Mini"
+				(at 8.128 -8.89 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -6.35 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -7.112 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pixhawk_Debug_Mini_1_0"
+				(pin power_in line
+					(at -11.43 -5.08 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Pixhawk_Debug_Mini_1_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 7.62 0)
+					(length 3.81)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 5.08 0)
+					(length 3.81)
+					(name "Console_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 2.54 0)
+					(length 3.81)
+					(name "Console_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 3.81)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -2.54 0)
+					(length 3.81)
+					(name "SWDCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:PESD5V0L5UV"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -3131,6 +3343,10 @@
 		(uuid "9989a55d-9530-4b01-9973-abccf0eec8e4")
 	)
 	(no_connect
+		(at 132.08 119.38)
+		(uuid "a09da91d-8a28-4bcc-bb99-6124071b9636")
+	)
+	(no_connect
 		(at 120.65 74.93)
 		(uuid "d165e484-e590-4038-9348-da84b6059aa0")
 	)
@@ -3590,6 +3806,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a76c912-daa0-4eeb-b3d9-efcf1563b939")
+	)
+	(wire
+		(pts
 			(xy 209.55 139.7) (xy 186.69 139.7)
 		)
 		(stroke
@@ -3807,6 +4033,16 @@
 			(type default)
 		)
 		(uuid "888c252b-2102-472e-a710-15fa83e92e7b")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce2445a-dab4-4e52-90b3-5bfdd77e9667")
 	)
 	(wire
 		(pts
@@ -4130,6 +4366,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde6a318-14ae-40de-ba5a-9e575ad6536a")
+	)
+	(wire
+		(pts
 			(xy 48.26 67.31) (xy 49.53 67.31)
 		)
 		(stroke
@@ -4240,6 +4486,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 109.22) (xy 120.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3ad59f-aa5d-4ee7-8b8c-793566146797")
+	)
+	(wire
+		(pts
 			(xy 198.12 66.04) (xy 219.71 66.04)
 		)
 		(stroke
@@ -4267,6 +4523,16 @@
 			(type default)
 		)
 		(uuid "e076965a-5e87-4d5f-b564-a242545b6c8f")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 120.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e232bf30-c68d-42fb-bb73-9850be811ee2")
 	)
 	(wire
 		(pts
@@ -4884,7 +5150,7 @@
 	)
 	(text "Pixhawk Debug Mini"
 		(exclude_from_sim no)
-		(at 130.556 93.726 0)
+		(at 130.302 98.552 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4988,6 +5254,17 @@
 		)
 		(uuid "fb6b2f11-aca4-41a7-b59b-ae9628665755")
 	)
+	(label "VTARGET"
+		(at 111.76 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03310c36-51ef-4eae-be48-7005a7f9e349")
+	)
 	(label "IF_SWCLK"
 		(at 217.17 66.04 180)
 		(fields_autoplaced yes)
@@ -5088,6 +5365,17 @@
 		(uuid "5429fa38-75b9-494c-a4d7-11bf5173b58b")
 	)
 	(label "IF_SWCLK"
+		(at 111.76 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "566b2f0f-bbd7-461e-941d-d6e9c537f782")
+	)
+	(label "IF_SWCLK"
 		(at 76.2 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5175,6 +5463,17 @@
 		)
 		(uuid "92f548b4-a2f2-454b-9d0a-5000ec7ac339")
 	)
+	(label "IF_SWDIO"
+		(at 111.76 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96a329f1-69d1-4ec0-af18-e42a5889c062")
+	)
 	(label "IF_RST"
 		(at 110.49 80.01 0)
 		(fields_autoplaced yes)
@@ -5241,6 +5540,26 @@
 	)
 	(global_label "FC0_TARGET_RXD"
 		(shape output)
+		(at 111.76 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d92986a-0a12-4394-8cab-fb71bb032a4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FC0_TARGET_RXD"
+		(shape output)
 		(at 110.49 62.23 180)
 		(effects
 			(font
@@ -5271,6 +5590,26 @@
 		(uuid "6c5b5a6e-d612-4323-b221-6c2387edce63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FCO_TARGET_TXD"
+		(shape input)
+		(at 111.76 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85c85117-983c-4dbd-9808-46cff5d86bd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,7 +11610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "McuOnEclipse:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal"
 			(at 130.81 71.12 0)
 			(effects
 				(font
@@ -11335,6 +11674,71 @@
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02744a02-3f54-46c0-a1c9-073463a02fad")
+		(property "Reference" "#PWR034"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.777 118.6942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c763659f-e2cc-4dff-8cf6-6687030aa160")
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11465,6 +11869,91 @@
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "McuOnEclipse:Pixhawk_Debug_Mini")
+		(at 132.08 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d714a71-9edc-4ebd-af80-e2af2beb33c6")
+		(property "Reference" "J2"
+			(at 139.7 107.3149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pixhawk_Debug_Mini"
+			(at 139.7 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "McuOnEclipse:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.968 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4e3da49d-0cab-4a4f-81c5-e055031e97cb")
+		)
+		(pin "5"
+			(uuid "a5fd7b4e-ecb8-4885-8d07-4e26a975f316")
+		)
+		(pin "4"
+			(uuid "d5098685-5cb5-4d38-97ef-af6945b3e303")
+		)
+		(pin "2"
+			(uuid "2e912435-c182-484e-847c-be9dc3e36909")
+		)
+		(pin "3"
+			(uuid "7ceeca24-4554-4fb8-b345-7d4ea9eaec49")
+		)
+		(pin "MP"
+			(uuid "382b5424-dcb1-4bed-9dc7-a97e5614a0ba")
+		)
+		(pin "1"
+			(uuid "f9207c8b-f9cb-4347-9f4c-ba8c9158ddac")
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
+					(reference "J2")
 					(unit 1)
 				)
 			)

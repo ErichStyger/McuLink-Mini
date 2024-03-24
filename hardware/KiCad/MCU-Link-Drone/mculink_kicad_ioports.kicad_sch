@@ -2758,13 +2758,13 @@
 		)
 	)
 	(junction
-		(at 212.09 119.38)
+		(at 241.3 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76a288dd-653a-4036-b7f7-a75baff40076")
 	)
 	(junction
-		(at 193.04 124.46)
+		(at 222.25 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3b4ad54-8927-4443-99da-540099d1513d")
@@ -2837,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 193.04 132.08)
+			(xy 222.25 118.11) (xy 222.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2867,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 124.46) (xy 212.09 119.38)
+			(xy 241.3 118.11) (xy 241.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2957,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 119.38) (xy 193.04 119.38)
+			(xy 223.52 113.03) (xy 222.25 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 119.38) (xy 193.04 124.46)
+			(xy 222.25 113.03) (xy 222.25 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3097,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 124.46) (xy 193.04 124.46)
+			(xy 223.52 118.11) (xy 222.25 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3117,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 130.81) (xy 212.09 128.27)
+			(xy 241.3 124.46) (xy 241.3 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3167,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 119.38) (xy 212.09 119.38)
+			(xy 245.11 113.03) (xy 241.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4050,7 +4050,7 @@
 	)
 	(global_label "LPC_RST"
 		(shape output)
-		(at 215.9 119.38 0)
+		(at 245.11 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4059,7 +4059,7 @@
 		)
 		(uuid "730ac3db-bb59-4b8d-8bdd-7319dc8591f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 119.38 0)
+			(at 245.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5537,7 @@
 	)
 	(symbol
 		(lib_id "mculink_kicad:KMR221GLFS")
-		(at 203.2 124.46 0)
+		(at 232.41 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5545,7 +5545,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060487e0d")
 		(property "Reference" "SW1"
-			(at 203.2 111.76 0)
+			(at 232.41 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,15 +5553,15 @@
 			)
 		)
 		(property "Value" "KMR221GLFS"
-			(at 203.2 114.3 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "mculink_kicad:SW_C_K_KMR2"
-			(at 198.12 133.35 0)
+		(property "Footprint" "McuOnEclipse:SW_C_K_KMR2"
+			(at 227.33 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 133.35 0)
+			(at 227.33 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5579,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 124.46 0)
+			(at 232.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 132.08 0)
+		(at 222.25 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5621,7 +5621,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060489315")
 		(property "Reference" "#PWR040"
-			(at 193.04 138.43 0)
+			(at 222.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.167 136.4742 0)
+			(at 222.377 130.1242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 132.08 0)
+			(at 222.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 132.08 0)
+			(at 222.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +5656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 132.08 0)
+			(at 222.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 130.81 0)
+		(at 241.3 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5686,7 +5686,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006048df32")
 		(property "Reference" "#PWR041"
-			(at 212.09 137.16 0)
+			(at 241.3 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.217 135.2042 0)
+			(at 241.427 128.8542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 130.81 0)
+			(at 241.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +5712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 130.81 0)
+			(at 241.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 130.81 0)
+			(at 241.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
