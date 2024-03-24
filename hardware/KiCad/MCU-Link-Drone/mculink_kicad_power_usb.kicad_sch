@@ -5875,7 +5875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm"
+		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP3.5x3.5mm"
 			(at 186.69 24.13 0)
 			(effects
 				(font
@@ -6133,7 +6133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm"
+		(property "Footprint" "McuOnEclipse:LQFP-64-1EP_10x10mm_P0.5mm_EP3.5x3.5mm"
 			(at 146.05 100.33 0)
 			(effects
 				(font
