@@ -1623,69 +1623,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 71.12 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6198483-357b-4aa5-a865-af6762cbda57")
-		(property "Reference" "L7"
-			(at 73.66 100.4316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Logo HSLU"
-			(at 73.66 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "McuOnEclipse:Hochschule_Luzern_Small"
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mculink_drone_kicad"
-				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
-					(reference "L7")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 58.42 45.72)
 		(size 25.4 12.7)
