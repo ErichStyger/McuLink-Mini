@@ -12595,7 +12595,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c276248d-6682-482f-b171-06892c1f41c1")
 		(property "Reference" "JP1"
 			(at 209.55 133.3499 90)
@@ -12607,7 +12606,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 209.55 135.8899 90)
+			(at 184.658 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
