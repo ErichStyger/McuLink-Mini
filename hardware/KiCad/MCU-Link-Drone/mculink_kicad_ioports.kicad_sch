@@ -2569,6 +2569,10 @@
 		(uuid "2af7a931-3a21-407a-ac31-f85397d35b47")
 	)
 	(no_connect
+		(at 44.45 63.5)
+		(uuid "38994652-1b8f-400d-91a3-f8d068697a57")
+	)
+	(no_connect
 		(at 44.45 104.14)
 		(uuid "510b0998-10d8-4a7a-8279-9f6de33080e7")
 	)
@@ -2815,16 +2819,6 @@
 			(type default)
 		)
 		(uuid "b5e8fdfb-0fea-4354-9deb-eac30e981079")
-	)
-	(wire
-		(pts
-			(xy 44.45 63.5) (xy 50.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc26ca51-e9fd-44b9-a1a8-28459631764e")
 	)
 	(wire
 		(pts
@@ -3851,26 +3845,6 @@
 		(uuid "b114d232-33bc-42c6-8de6-b635f330cdd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DBGIF_ISP_CTRL"
-		(shape output)
-		(at 50.8 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b5c3fd98-fa99-4381-b872-85a9c5041bbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
