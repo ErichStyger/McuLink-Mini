@@ -10,6 +10,300 @@
 		(company "Hochschule Luzern, Technik & Architektur")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -9.271 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -499,190 +793,6 @@
 				)
 			)
 		)
-		(symbol "mculink_kicad-rescue:Conn_01x03_Male-Connector"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Connector_Conn_01x03_Male"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Male-Connector_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "mculink_kicad:SN74LVC1T45GW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1163,28 +1273,10 @@
 		)
 	)
 	(junction
-		(at 125.73 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13da6dfb-c3d8-4b7d-bec1-8ad2acc80009")
-	)
-	(junction
-		(at 118.11 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16c904cc-e6af-4529-a534-ad080e9bb550")
-	)
-	(junction
 		(at 88.9 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f969558-8410-4bc8-8fe8-25229c1deb77")
-	)
-	(junction
-		(at 110.49 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2300b0dd-3127-4f4d-ac57-c7c3d863baf0")
 	)
 	(junction
 		(at 73.66 59.69)
@@ -1199,16 +1291,22 @@
 		(uuid "54b3c650-2340-4959-8c38-e8489311bfa7")
 	)
 	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65b42703-7a75-4def-9611-a66c36f4f5b3")
+	)
+	(junction
+		(at 110.49 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85fdabf5-ade4-4228-9596-79a88fb862ff")
+	)
+	(junction
 		(at 88.9 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89509145-7120-40bf-8496-efb5ad765eb6")
-	)
-	(junction
-		(at 114.3 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0bba5e8-3e22-462b-ad65-f508c82c782a")
 	)
 	(junction
 		(at 88.9 60.96)
@@ -1216,9 +1314,15 @@
 		(color 0 0 0 0)
 		(uuid "d88c185c-d5dd-4ed2-a560-4fb83fc31412")
 	)
+	(junction
+		(at 125.73 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fddba8d4-511c-4517-bce9-7cc53eabfa47")
+	)
 	(no_connect
-		(at 121.92 81.28)
-		(uuid "aa36d673-fe74-42ea-9d7f-33609de8ec2d")
+		(at 135.89 71.12)
+		(uuid "329f9a32-e7cb-44e7-88d3-6a116bd91be5")
 	)
 	(wire
 		(pts
@@ -1239,26 +1343,6 @@
 			(type default)
 		)
 		(uuid "03781f8a-8bb6-4b2d-987b-e2a7fa5b4ee2")
-	)
-	(wire
-		(pts
-			(xy 132.08 82.55) (xy 132.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03fbbc06-de4d-4ace-a1f9-01d550543d88")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 114.3 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a6227f-6622-455c-830b-0b6e37e672d9")
 	)
 	(wire
 		(pts
@@ -1332,6 +1416,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e790bae-b20d-40fc-8b90-7e1c26c0efc2")
+	)
+	(wire
+		(pts
+			(xy 125.73 81.28) (xy 125.73 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d22a94-c15e-4f72-9e59-c49357739690")
+	)
+	(wire
+		(pts
 			(xy 96.52 111.76) (xy 102.87 111.76)
 		)
 		(stroke
@@ -1362,7 +1466,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 81.28) (xy 118.11 76.2)
+			(xy 125.73 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd3939b-1948-47bc-8519-4c3959cf939d")
+	)
+	(wire
+		(pts
+			(xy 118.11 78.74) (xy 118.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1392,13 +1506,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 118.11 76.2)
+			(xy 114.3 76.2) (xy 114.3 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b6270c6-7dbf-4a0a-98ef-e8ad76227503")
+		(uuid "622802c2-f794-49db-a181-060528cc0de7")
+	)
+	(wire
+		(pts
+			(xy 135.89 78.74) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d2b7c3-2c23-47b9-ab92-87c371dc5edd")
 	)
 	(wire
 		(pts
@@ -1452,23 +1576,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 135.89 76.2)
+			(xy 114.3 76.2) (xy 135.89 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d7f9ea7-5b86-4b86-9f51-d84d6566b633")
-	)
-	(wire
-		(pts
-			(xy 125.73 73.66) (xy 135.89 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e8625fa-29c5-44d7-b8b8-09e052e18872")
+		(uuid "8fe2f36c-4787-497a-88ba-51da41d280fa")
 	)
 	(wire
 		(pts
@@ -1492,13 +1606,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 81.28) (xy 110.49 73.66)
+			(xy 110.49 73.66) (xy 110.49 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a899492-b9c0-41b4-bcb7-ec75e5afde2b")
+	)
+	(wire
+		(pts
+			(xy 121.92 90.17) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1a7715-3065-40a4-8b30-616133e0b2e7")
 	)
 	(wire
 		(pts
@@ -1522,16 +1646,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.74) (xy 135.89 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b281905a-44f2-4ef9-bb54-db5b1e383d75")
-	)
-	(wire
-		(pts
 			(xy 86.36 111.76) (xy 88.9 111.76)
 		)
 		(stroke
@@ -1552,16 +1666,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 125.73 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97a0e30-bb08-416c-803c-aa85e7b8da9e")
-	)
-	(wire
-		(pts
 			(xy 78.74 99.06) (xy 88.9 99.06)
 		)
 		(stroke
@@ -1579,6 +1683,16 @@
 			(type default)
 		)
 		(uuid "e1a84400-ebd5-4960-8543-2d1d45e816b0")
+	)
+	(wire
+		(pts
+			(xy 110.49 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea68173a-4499-4d1e-808b-e5826dec28c6")
 	)
 	(wire
 		(pts
@@ -1609,16 +1723,6 @@
 			(type default)
 		)
 		(uuid "f71b8381-c9c4-470d-a920-98f125ce6172")
-	)
-	(wire
-		(pts
-			(xy 110.49 73.66) (xy 125.73 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8325de5-4113-485d-932a-01903937082c")
 	)
 	(image
 		(at 200.66 170.18)
@@ -2104,6 +2208,16 @@
 			(justify right bottom)
 		)
 		(uuid "5dcca6b7-ca57-4b63-bc95-c9c17766c0de")
+	)
+	(text "https://nxp.gitbook.io/navqplus/hardware/hardware-interfaces/uart/uart2-a53-debug\n1: 5V\n2: TXD\n3: RXD\n4: CTS\n5: RTS\n6: GND"
+		(exclude_from_sim no)
+		(at 148.336 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f10ccee-e8cc-46d1-9a08-0bcd89edd2ec")
 	)
 	(global_label "FC0_TARGET_RXD"
 		(shape output)
@@ -3467,81 +3581,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mculink_kicad-rescue:Conn_01x03_Male-Connector")
-		(at 140.97 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000605e6544")
-		(property "Reference" "J7"
-			(at 141.6812 75.5904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1x3pos, 100mil pitch"
-			(at 141.6812 77.9018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b62f0c87-3822-4381-8ef0-ea8387573b6a")
-		)
-		(pin "2"
-			(uuid "49b15fd4-9e6a-4dbb-9b8b-5ce24a391dc2")
-		)
-		(pin "3"
-			(uuid "7c55600a-f5ac-400a-831b-83d9b0457e38")
-		)
-		(instances
-			(project "mculink_drone_kicad"
-				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603d0055"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 132.08 82.55 0)
+		(at 140.97 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3549,7 +3590,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605f5f7f")
 		(property "Reference" "#PWR080"
-			(at 132.08 88.9 0)
+			(at 140.97 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.207 86.9442 0)
+			(at 141.097 93.2942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 82.55 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 82.55 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 82.55 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3647,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L5UV")
-		(at 110.49 83.82 270)
+		(at 110.49 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3614,7 +3655,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605fc94f")
 		(property "Reference" "D4"
-			(at 113.03 86.36 90)
+			(at 113.03 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3664,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L5UV"
-			(at 113.03 88.9 90)
+			(at 113.03 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3673,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 110.49 83.82 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3682,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf"
-			(at 110.49 83.82 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3691,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
-			(at 110.49 83.82 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3728,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L5UV")
-		(at 114.3 83.82 270)
+		(at 114.3 92.71 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3695,7 +3736,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605fc955")
 		(property "Reference" "D4"
-			(at 115.4684 85.5472 0)
+			(at 115.4684 94.4372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3746,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L5UV"
-			(at 113.157 85.5472 0)
+			(at 113.157 94.4372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3756,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 114.3 83.82 0)
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3765,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf"
-			(at 114.3 83.82 0)
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3774,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
-			(at 114.3 83.82 0)
+			(at 114.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3811,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L5UV")
-		(at 118.11 83.82 270)
+		(at 118.11 92.71 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3778,7 +3819,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605fc95b")
 		(property "Reference" "D4"
-			(at 119.8372 81.6864 90)
+			(at 119.8372 90.5764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3829,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L5UV"
-			(at 119.8372 83.9978 90)
+			(at 119.8372 92.8878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 118.11 83.82 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf"
-			(at 118.11 83.82 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3857,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
-			(at 118.11 83.82 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3894,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L5UV")
-		(at 121.92 83.82 270)
+		(at 121.92 92.71 270)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,7 +3902,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605fc961")
 		(property "Reference" "D4"
-			(at 123.6472 81.6864 90)
+			(at 123.6472 90.5764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3912,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L5UV"
-			(at 123.6472 83.9978 90)
+			(at 123.6472 92.8878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3922,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 121.92 83.82 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3931,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf"
-			(at 121.92 83.82 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3940,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
-			(at 121.92 83.82 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3977,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PESD5V0L5UV")
-		(at 125.73 83.82 270)
+		(at 125.73 92.71 270)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3944,7 +3985,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605fc967")
 		(property "Reference" "D4"
-			(at 127.4572 81.6864 90)
+			(at 127.4572 90.5764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3995,7 @@
 			)
 		)
 		(property "Value" "PESD5V0L5UV"
-			(at 127.4572 83.9978 90)
+			(at 127.4572 92.8878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +4005,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 125.73 83.82 0)
+			(at 125.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4014,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf"
-			(at 125.73 83.82 0)
+			(at 125.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4023,7 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
-			(at 125.73 83.82 0)
+			(at 125.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 86.36 0)
+		(at 110.49 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4027,7 +4068,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000605fc96d")
 		(property "Reference" "#PWR083"
-			(at 110.49 92.71 0)
+			(at 110.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.617 90.7542 0)
+			(at 110.617 99.6442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 86.36 0)
+			(at 110.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 86.36 0)
+			(at 110.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 86.36 0)
+			(at 110.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,6 +4118,156 @@
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603d0055"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 140.97 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb7a341-a7df-42a2-9edf-29b4107fe3a7")
+		(property "Reference" "J11"
+			(at 143.51 76.5555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_MountingPin"
+			(at 143.51 79.0955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "eef187c6-6ce3-4a78-8b2b-7006ee615852")
+		)
+		(pin "6"
+			(uuid "161ead5a-8c6c-449c-9335-b4515b882c86")
+		)
+		(pin "4"
+			(uuid "3f8e7fd5-4d0e-4fdb-8a6d-98eb0fd5fc26")
+		)
+		(pin "3"
+			(uuid "082ffec6-41df-4ef5-ae9d-0795141a5d89")
+		)
+		(pin "2"
+			(uuid "40de0b51-3440-42f1-ae6b-f2f79dbdf657")
+		)
+		(pin "MP"
+			(uuid "98d7943d-cd36-474d-99b2-92befd199bbe")
+		)
+		(pin "1"
+			(uuid "5cd3872b-c670-4569-bf25-b896a9a1aa9f")
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603d0055"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbd98dc2-e9e1-41a5-a044-47b9e8d848a5")
+		(property "Reference" "#PWR076"
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 136.017 88.2142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "145a02b3-f495-4f56-9d75-023a4bd7a292")
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603d0055"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
