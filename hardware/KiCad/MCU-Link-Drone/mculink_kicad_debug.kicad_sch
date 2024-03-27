@@ -1514,6 +1514,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 -15.24 90)
+					(length 3.81)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "DCD-LZ_Debug_1_1"
 				(rectangle
@@ -1883,6 +1901,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 -16.51 90)
+					(length 3.81)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 		(symbol "McuOnEclipse:Pixhawk_Debug_Mini"
@@ -1967,6 +2003,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -11.43 90)
+					(length 3.81)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3792,6 +3846,12 @@
 		(uuid "140f4186-10fd-409d-9931-aac93f13aa66")
 	)
 	(junction
+		(at 207.01 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb42388-69e8-4ff9-82aa-569735762204")
+	)
+	(junction
 		(at 242.57 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3892,6 +3952,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a32e643d-2511-48e3-a1e4-de24d3cb8472")
+	)
+	(junction
+		(at 201.93 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aadf10cc-971d-4472-b910-7b59ae7a3d90")
 	)
 	(junction
 		(at 49.53 143.51)
@@ -4485,6 +4551,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 134.62) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed722cd-cc70-4a4e-8102-19016b3c73eb")
+	)
+	(wire
+		(pts
 			(xy 242.57 48.26) (xy 242.57 46.99)
 		)
 		(stroke
@@ -4915,6 +4991,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 139.7) (xy 201.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5885dd-22bc-46f7-bed2-520e31b535f4")
+	)
+	(wire
+		(pts
 			(xy 39.37 87.63) (xy 39.37 86.36)
 		)
 		(stroke
@@ -5095,7 +5181,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 134.62) (xy 203.2 134.62)
+			(xy 199.39 134.62) (xy 201.93 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5332,6 +5418,16 @@
 			(type default)
 		)
 		(uuid "f22cfe26-9cc8-4e55-8909-e847742af87f")
+	)
+	(wire
+		(pts
+			(xy 201.93 139.7) (xy 201.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bf5be6-98f8-4c7b-81a3-f7bf26df7fe2")
 	)
 	(wire
 		(pts
@@ -12085,6 +12181,9 @@
 		(pin "10"
 			(uuid "f0c50dc4-272c-42ff-a7b7-f985b817b1d4")
 		)
+		(pin "MP"
+			(uuid "82340e91-5b69-4507-9db2-195a407e074d")
+		)
 		(instances
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
@@ -12154,6 +12253,71 @@
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e1040a1-8e85-48fa-b0ed-603f5d073f59")
+		(property "Reference" "#PWR090"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.797 107.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb6d7f86-ca67-42e6-a987-216d1cae20dd")
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -12300,6 +12464,9 @@
 		(pin "7"
 			(uuid "018098fd-cb76-439c-9153-1bb150ec891d")
 		)
+		(pin "MP"
+			(uuid "6434f230-7d7a-48a3-bc70-d3c462f01d7c")
+		)
 		(instances
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
@@ -12369,6 +12536,71 @@
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6245c4d0-f1dd-440c-b0eb-4268b657a5ed")
+		(property "Reference" "#PWR096"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.527 142.8242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af4f3f87-d44f-44a7-ae14-8f3b0891e694")
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -12577,6 +12809,9 @@
 		(pin "1"
 			(uuid "f9207c8b-f9cb-4347-9f4c-ba8c9158ddac")
 		)
+		(pin "MP"
+			(uuid "b21452f2-4468-4154-84e5-efb33ccd3b07")
+		)
 		(instances
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
@@ -12654,6 +12889,71 @@
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2e53970-bd87-4f46-a614-e7a3f153bc96")
+		(property "Reference" "#PWR089"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.257 74.2442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73c9c9d0-3652-42e7-8393-52de8dbeef91")
+		)
+		(instances
+			(project "mculink_drone_kicad"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cff19"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
