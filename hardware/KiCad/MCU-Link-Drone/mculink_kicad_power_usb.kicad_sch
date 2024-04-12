@@ -6881,7 +6881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UL-22U"
+		(property "Value" "22u"
 			(at 272.161 90.043 0)
 			(effects
 				(font
@@ -7014,7 +7014,7 @@
 				)
 			)
 		)
-		(property "Value" "4U7"
+		(property "Value" "4u7"
 			(at 228.6 82.5754 90)
 			(effects
 				(font
@@ -8420,7 +8420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4U7"
+		(property "Value" "4.7uF"
 			(at 53.721 43.053 0)
 			(effects
 				(font

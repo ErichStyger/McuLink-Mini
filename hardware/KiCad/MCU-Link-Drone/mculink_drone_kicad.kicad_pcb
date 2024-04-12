@@ -212,7 +212,7 @@
 				)
 			)
 		)
-		(property "Value" "4U7"
+		(property "Value" "4.7uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5237209a-20b2-4b14-a9cf-506736d05bb4")
@@ -3772,7 +3772,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at 2.032 0 90)
+			(at 1.864 0 180)
 			(layer "F.SilkS")
 			(uuid "b2f8ff6b-102b-4d4f-a26b-12ad9ca56cc9")
 			(effects
@@ -3982,7 +3982,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 2.032 0 90)
+			(at 1.844 -0.035 -90)
 			(layer "F.SilkS")
 			(uuid "828a1aaf-b835-4b1b-823e-96ecfc85fcd2")
 			(effects
@@ -8149,7 +8149,7 @@
 			)
 		)
 		(property ki_fp_filters "SOT?666*")
-		(path "/00000000-0000-0000-0000-0000603d0055/00000000-0000-0000-0000-0000605fc961")
+		(path "/00000000-0000-0000-0000-0000603d0055/00000000-0000-0000-0000-0000605fc955")
 		(sheetname "UART Interface to Target")
 		(sheetfile "mculink_kicad_uart.kicad_sch")
 		(attr smd)
@@ -9071,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Value" "4U7"
+		(property "Value" "4u7"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "6a3bfb59-1c9a-48fe-90a3-2fc049df1aea")
@@ -17557,7 +17557,7 @@
 				)
 			)
 		)
-		(property "Value" "UL-22U"
+		(property "Value" "22u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fbfa576c-f02d-4045-a39b-86254246246f")
@@ -24613,7 +24613,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06_MountingPin"
+		(property "Value" "JST-GH_BM06B"
 			(at 0 4 -90)
 			(layer "F.Fab")
 			(uuid "42ba0e4b-42da-4023-877a-3133ae5deb22")

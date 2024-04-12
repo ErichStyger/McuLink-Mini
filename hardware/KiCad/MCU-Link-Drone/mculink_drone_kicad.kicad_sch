@@ -844,6 +844,25 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
+	(text_box "Notes:\nR3 zero ohm nötig?\n"
+		(exclude_from_sim no)
+		(at 60.96 139.7 0)
+		(size 71.12 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "76ebb803-524a-4315-a167-906c0469ae8b")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 123.19 115.57 0)

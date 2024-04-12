@@ -3414,6 +3414,25 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
+	(text_box "- remove zero Ohm resistor\n- same footprint for 22/2.2 p\n- different ESD diodes/footprint"
+		(exclude_from_sim no)
+		(at 144.78 35.56 0)
+		(size 60.96 35.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "865f84d6-40f4-4e18-b9dd-2e1ba770e0d5")
+	)
 	(text "Open: Boot from internal FLASH\nClosed: Enable ISP mode (USB or UART)"
 		(exclude_from_sim no)
 		(at 151.13 130.81 0)

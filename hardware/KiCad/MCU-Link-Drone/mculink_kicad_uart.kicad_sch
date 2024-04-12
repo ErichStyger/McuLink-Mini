@@ -4142,7 +4142,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_MountingPin"
+		(property "Value" "JST-GH_BM06B"
 			(at 143.51 79.0955 0)
 			(effects
 				(font
