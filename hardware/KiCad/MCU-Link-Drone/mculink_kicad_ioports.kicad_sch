@@ -4004,6 +4004,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "197ccde3-0812-41ac-9b2d-4e460b60aeb9")
 		)
@@ -4252,6 +4261,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 41.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 41.91 135.89 0)
 			(effects
 				(font
@@ -4516,6 +4534,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b4ad0ac-b914-4e24-9552-cb27d680de49")
 		)
@@ -4651,6 +4678,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "981eccfb-0494-4221-ba9e-409568bcd195")
 		)
@@ -4713,6 +4749,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 92.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 92.71 170.18 0)
 			(effects
 				(font
@@ -4920,6 +4965,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 143.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64f25097-75db-4932-a726-c2d92ee5a0f3")
 		)
@@ -4981,6 +5035,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 143.51 168.91 0)
 			(effects
 				(font
@@ -5123,6 +5186,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58344f8c-2941-4614-a6ec-ed35f7d29aea")
 		)
@@ -5247,6 +5319,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 232.41 118.11 0)
 			(effects
 				(font

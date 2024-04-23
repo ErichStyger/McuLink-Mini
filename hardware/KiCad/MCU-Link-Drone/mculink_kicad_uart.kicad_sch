@@ -2353,6 +2353,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffaa3dcc-6707-4924-845e-e3ba15cbecba")
 		)
@@ -2424,6 +2433,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 88.9 64.77 0)
 			(effects
 				(font
@@ -2629,6 +2647,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "453a74d7-da8c-457b-a9b9-17582909647e")
 		)
@@ -2753,6 +2780,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 85.09 57.15 0)
 			(effects
 				(font
@@ -2958,6 +2994,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "025379fa-f801-46e3-b03e-3edda1a132ec")
 		)
@@ -3019,6 +3064,15 @@
 			)
 		)
 		(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -3171,6 +3225,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 68.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9421dea-1050-4128-91a9-b70af07edc00")
 		)
@@ -3295,6 +3358,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 85.09 95.25 0)
 			(effects
 				(font
@@ -3492,6 +3564,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -3699,6 +3780,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a115297a-b1ab-46ff-8467-f92af92a47b4")
 		)
@@ -3774,6 +3864,15 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -3865,6 +3964,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 118.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d179659b-3843-4b82-b62c-8ac289417f4e")
 		)
@@ -3948,6 +4056,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 121.92 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adbf69a2-4491-4f31-9aec-02403aa8e54e")
 		)
@@ -4023,6 +4140,15 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -4170,6 +4296,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" "304-09-562"
 			(at 140.97 76.2 0)
 			(effects
 				(font

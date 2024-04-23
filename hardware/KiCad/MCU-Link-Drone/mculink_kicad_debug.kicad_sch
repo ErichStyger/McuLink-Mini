@@ -6852,6 +6852,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "607c4ac3-43f4-467d-90a3-f10e7c56a53c")
 		)
@@ -6923,6 +6932,15 @@
 			)
 		)
 		(property "Description" "Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 52.07 38.1 0)
 			(effects
 				(font
@@ -7009,6 +7027,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -7110,6 +7137,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 200.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "248f2032-50b2-4aed-a503-7e617cfc904d")
 		)
@@ -7185,6 +7221,15 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 204.47 67.31 0)
 			(effects
 				(font
@@ -7276,6 +7321,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 208.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3686545c-3e1d-46b7-a481-4e758d1f4596")
 		)
@@ -7351,6 +7405,15 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
+			(at 212.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 212.09 67.31 0)
 			(effects
 				(font
@@ -7442,6 +7505,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c125f837-0302-42f9-8871-a69fba3101e0")
 		)
@@ -7515,6 +7587,15 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 247.65 67.31 0)
 			(effects
 				(font
@@ -7606,6 +7687,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 251.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc68820a-69ad-4c45-84e2-dae4ea0fb32e")
 		)
@@ -7681,6 +7771,15 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
+			(at 255.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 255.27 67.31 0)
 			(effects
 				(font
@@ -7772,6 +7871,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75215d33-5c25-4a07-8f67-521bc492334f")
 		)
@@ -7847,6 +7955,15 @@
 			)
 		)
 		(property "Description" "Low capacitance unidirectional fivefold ESD protection diode array, 5.0V, Common Anode, SOT-666"
+			(at 262.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 262.89 67.31 0)
 			(effects
 				(font
@@ -8064,6 +8181,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18349234-9400-4fab-9d2b-ab687f462373")
 		)
@@ -8123,6 +8249,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -8198,6 +8333,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "709e5997-2682-45ae-a870-95a062f58ef6")
 		)
@@ -8257,6 +8401,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 39.37 91.44 0)
 			(effects
 				(font
@@ -8462,6 +8615,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8aa81123-765a-4e9c-93c6-a5603d183d72")
 		)
@@ -8586,6 +8748,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -8793,6 +8964,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8920f8a9-b5c9-4eed-95b3-55fab3ccf0ac")
 		)
@@ -8864,6 +9044,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 64.77 110.49 0)
 			(effects
 				(font
@@ -9069,6 +9258,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8507682-2f10-4cb1-82f7-0f02e2b7e3b9")
 		)
@@ -9193,6 +9391,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -9400,6 +9607,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 52.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fadd0b8-4224-427b-bd40-f808b0dc9f77")
 		)
@@ -9479,6 +9695,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 64.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ad9d552-c654-4c38-9c41-5eee4afa3412")
 		)
@@ -9538,6 +9763,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 39.37 167.64 0)
 			(effects
 				(font
@@ -9743,6 +9977,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "572eb666-eba2-497b-b7bc-d3a9bcd18367")
 		)
@@ -9867,6 +10110,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 60.96 140.97 0)
 			(effects
 				(font
@@ -10072,6 +10324,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec8286f4-3892-4b7b-afc8-2448894cf82b")
 		)
@@ -10131,6 +10392,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 68.58 157.48 0)
 			(effects
 				(font
@@ -10273,6 +10543,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 63.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcbe1b7b-7fb2-4583-95cd-0a364594fe15")
 		)
@@ -10334,6 +10613,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 74.93 24.13 0)
 			(effects
 				(font
@@ -10542,6 +10830,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10f850ca-918e-4fd6-8df4-d0b021da0e09")
 		)
@@ -10739,6 +11036,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61e3ddc4-f115-4419-b49e-c53310a43582")
 		)
@@ -10798,6 +11104,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 88.9 184.15 0)
 			(effects
 				(font
@@ -10873,6 +11188,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90c7f35e-23d0-480f-88bb-9889049c9350")
 		)
@@ -10934,6 +11258,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 96.52 184.15 0)
 			(effects
 				(font
@@ -11141,6 +11474,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7dcf8452-83f6-429d-b3c8-d8d2f0e04a0c")
 		)
@@ -11209,6 +11551,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 220.98 139.7 0)
 			(effects
 				(font
@@ -11349,6 +11700,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 252.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "498c4627-85e9-4b27-aa07-d4f7a421ec2b")
 		)
@@ -11408,6 +11768,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 252.73 137.16 0)
 			(effects
 				(font
@@ -11485,6 +11854,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 262.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab9e4a18-ad0d-41e7-9152-b511b045d195")
 		)
@@ -11544,6 +11922,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 273.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 273.05 137.16 0)
 			(effects
 				(font
@@ -11751,6 +12138,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9da05178-b477-4741-8346-c884ae4e590f")
 		)
@@ -11820,6 +12216,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 255.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37e30c43-c045-47a4-b0f8-0b3d025d48d2")
 		)
@@ -11879,6 +12284,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 231.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 231.14 119.38 0)
 			(effects
 				(font
@@ -12143,6 +12557,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 147.32 53.34 0)
 			(effects
 				(font
@@ -12436,6 +12859,15 @@
 		)
 		(property "Description" ""
 			(at 141.478 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
+			(at 148.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,6 +13223,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "4e3da49d-0cab-4a4f-81c5-e055031e97cb")
 		)
@@ -12868,6 +13309,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -13003,6 +13453,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 245.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 245.11 96.52 0)
 			(effects
 				(font

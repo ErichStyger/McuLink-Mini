@@ -917,6 +917,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10c2e2b4-b395-420e-9055-cdf7a9a0d499")
 		)
@@ -975,6 +984,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 144.78 115.57 0)
 			(effects
 				(font
@@ -1049,6 +1067,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0eb37054-cfc7-4ea1-8c03-74bf4fc74e94")
 		)
@@ -1107,6 +1134,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 187.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 187.96 115.57 0)
 			(effects
 				(font
@@ -1442,6 +1478,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
@@ -1498,6 +1543,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -1569,6 +1623,15 @@
 				(hide yes)
 			)
 		)
+		(property "distrelec#" ""
+			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "mculink_drone_kicad"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527"
@@ -1625,6 +1688,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
 			(at 153.67 90.17 0)
 			(effects
 				(font
