@@ -846,10 +846,10 @@
 			"tXqmMBuGYRiGYaSe/wNXmNtkXlpbsAAAAABJRU5ErkJggg=="
 		)
 	)
-	(text_box "Open points:\n- could remove R3 zero resistor?\n- same footprint for 22/2.2 p\n- different ESD diodes/footprint\n- test points (Rx, Tx, SWD, ...) on the back)\n- UART connection without IVRef?\n- Pro pins?\n- Solder Jumper: different footprint?\n- Tracking of reference voltage is 3.3V instead of VTarget?"
+	(text_box "Open points:\n- Solder Jumper: different footprint?\n"
 		(exclude_from_sim no)
-		(at 24.765 68.58 0)
-		(size 66.04 27.94)
+		(at 26.035 68.58 0)
+		(size 64.77 27.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -865,7 +865,7 @@
 		)
 		(uuid "76ebb803-524a-4315-a167-906c0469ae8b")
 	)
-	(text_box "eChanges v0.2:\n- improved silkscreen, marks for pin numbers on connectors\n- all UART connections through SN74LVC1T45GW buffers to prevent backfeeding\n- added VTARGET to tracking voltage\n"
+	(text_box "Changes v0.2:\n- improved silkscreen, marks for pin numbers on connectors\n- all UART connections through SN74LVC1T45GW buffers to prevent backfeeding\n- added VTARGET to tracking voltage\n"
 		(exclude_from_sim no)
 		(at 26.035 105.41 0)
 		(size 65.405 23.495)

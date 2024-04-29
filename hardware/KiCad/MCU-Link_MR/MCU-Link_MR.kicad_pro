@@ -827,7 +827,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../../../../tmp/MCU-Link_MR.step",
-      "svg": "",
+      "svg": "c:/tmp/board",
       "vrml": ""
     },
     "page_layout_descr_file": ""
