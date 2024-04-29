@@ -826,7 +826,7 @@
       "plot": "v0.1",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../../../tmp/MCU-Link_MR.step",
       "svg": "",
       "vrml": ""
     },

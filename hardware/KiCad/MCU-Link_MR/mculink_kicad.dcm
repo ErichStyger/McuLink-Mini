@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC1T45GW
+D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6
+K Level-Shifter CMOS-TTL-Translation
+F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH1T45.pdf
+$ENDCMP
+#
+#End Doc Library

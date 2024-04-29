@@ -1,0 +1,345 @@
+\t (00:00:23) allegro_free_viewer 17.4 S008 Windows SPB 64-bit Edition
+\t (00:00:23)     Journal start - Thu Apr 15 12:40:34 2021
+\t (00:00:23)         Host=DESKTOP-37N7PAQ User=uberr Pid=2428 CPUs=16
+\t (00:00:23) CmdLine= H:\Cadence\PCBViewers_2019\tools\bin\allegro_free_viewer.exe
+\t (00:00:23) 
+\d (00:00:23) Design opened: C:/Users/uberr/Documents/repos/mcu-link/resource files/MCU-Link-rev-PA6-20200513/1077192-MCU-Link-revPA6_pcb.brd
+\i (00:00:23) ucpedit 
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -416.367 369.511
+\i (00:00:23) trapsize 18464
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -394.210 369.512
+\i (00:00:23) trapsize 9232
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 152.317 598.463
+\i (00:00:24) trapsize 4616
+\i (00:00:24) roam start
+\i (00:00:24) roam y 16
+\i (00:00:24) roam x -32
+\i (00:00:24) roam y 16
+\i (00:00:24) roam x -32
+\i (00:00:24) roam y 32
+\i (00:00:24) roam x -48
+\i (00:00:24) roam y 48
+\i (00:00:24) roam x -32
+\i (00:00:24) roam y 32
+\i (00:00:24) roam x -48
+\i (00:00:24) roam y 48
+\i (00:00:24) roam x -80
+\i (00:00:24) roam y 64
+\i (00:00:24) roam x -32
+\i (00:00:24) roam y 16
+\i (00:00:24) roam x -32
+\i (00:00:24) roam y 16
+\i (00:00:24) roam x -48
+\i (00:00:24) roam y 32
+\i (00:00:24) roam x -32
+\i (00:00:24) roam y 16
+\i (00:00:24) roam x -48
+\i (00:00:24) roam y 16
+\i (00:00:24) roam x -16
+\i (00:00:24) roam end
+\i (00:00:25) roam start
+\i (00:00:25) roam x 16
+\i (00:00:25) roam x 16
+\i (00:00:25) roam x 16
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 32
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 80
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 80
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -48
+\i (00:00:25) roam x 80
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 64
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 48
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 48
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 48
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 48
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 32
+\i (00:00:25) roam y -32
+\i (00:00:25) roam x 32
+\i (00:00:25) roam y -16
+\i (00:00:25) roam x 16
+\i (00:00:25) roam x 16
+\i (00:00:25) roam y -16
+\i (00:00:25) roam end
+\i (00:00:26) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged 0 1
+\i (00:00:27) roam start
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:27) roam y -16
+\i (00:00:28) roam y -32
+\i (00:00:28) roam y -32
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -16
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -16
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -16
+\i (00:00:28) roam x 16
+\i (00:00:28) roam y -48
+\i (00:00:28) roam x 32
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 32
+\i (00:00:28) roam y -48
+\i (00:00:28) roam x 32
+\i (00:00:28) roam y -48
+\i (00:00:28) roam x 48
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 32
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 48
+\i (00:00:28) roam y -32
+\i (00:00:28) roam x 48
+\i (00:00:28) roam y -32
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -32
+\i (00:00:28) roam y 32
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 32
+\i (00:00:28) roam x -32
+\i (00:00:28) roam y 32
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -32
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 16
+\i (00:00:28) roam x -16
+\i (00:00:28) roam y 32
+\i (00:00:29) roam x -16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam x -16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam x -16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam x -16
+\i (00:00:29) roam y 32
+\i (00:00:29) roam x -16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam x -16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam y 16
+\i (00:00:29) roam end
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 245.345 840.472
+\i (00:00:29) trapsize 2308
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 473.372 797.544
+\i (00:00:30) trapsize 1154
+\i (00:00:31) roam start
+\i (00:00:31) roam x -16
+\i (00:00:31) roam x -16
+\i (00:00:31) roam y -16
+\i (00:00:31) roam x -16
+\i (00:00:31) roam x -32
+\i (00:00:31) roam y -16
+\i (00:00:31) roam x -64
+\i (00:00:31) roam y -32
+\i (00:00:31) roam x -48
+\i (00:00:31) roam y -32
+\i (00:00:31) roam x -64
+\i (00:00:31) roam y -16
+\i (00:00:31) roam x -48
+\i (00:00:31) roam y -32
+\i (00:00:31) roam x -48
+\i (00:00:31) roam y -32
+\i (00:00:31) roam x -32
+\i (00:00:31) roam y -32
+\i (00:00:31) roam x -48
+\i (00:00:31) roam y -16
+\i (00:00:31) roam x -48
+\i (00:00:31) roam y -32
+\i (00:00:31) roam x -48
+\i (00:00:31) roam y -48
+\i (00:00:31) roam x -48
+\i (00:00:31) roam y -16
+\i (00:00:31) roam x -32
+\i (00:00:31) roam y -32
+\i (00:00:31) roam x -32
+\i (00:00:31) roam y -16
+\i (00:00:31) roam x -16
+\i (00:00:31) roam x 16
+\i (00:00:31) roam y 16
+\i (00:00:31) roam y 16
+\i (00:00:31) roam x 32
+\i (00:00:31) roam y 16
+\i (00:00:31) roam x 16
+\i (00:00:31) roam y 48
+\i (00:00:31) roam x 48
+\i (00:00:31) roam y 32
+\i (00:00:31) roam x 48
+\i (00:00:31) roam y 32
+\i (00:00:31) roam x 48
+\i (00:00:31) roam y 32
+\i (00:00:31) roam x 48
+\i (00:00:31) roam y 16
+\i (00:00:31) roam x 48
+\i (00:00:31) roam y 32
+\i (00:00:31) roam x 64
+\i (00:00:31) roam y 16
+\i (00:00:31) roam x 48
+\i (00:00:31) roam y 16
+\i (00:00:31) roam x 48
+\i (00:00:31) roam y 32
+\i (00:00:32) roam x 64
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 48
+\i (00:00:32) roam y 32
+\i (00:00:32) roam x 64
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 32
+\i (00:00:32) roam y 32
+\i (00:00:32) roam x 48
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 32
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 32
+\i (00:00:32) roam x 32
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 16
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 32
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 16
+\i (00:00:32) roam x 16
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 32
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 16
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 16
+\i (00:00:32) roam y 16
+\i (00:00:32) roam x 16
+\i (00:00:32) roam end
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 613.444 746.980
+\i (00:00:32) trapsize 2308
+\i (00:00:34) roam start
+\i (00:00:34) roam y 48
+\i (00:00:34) roam y 16
+\i (00:00:34) roam y 32
+\i (00:00:34) roam y 16
+\i (00:00:35) roam y -32
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -32
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -32
+\i (00:00:35) roam x 16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam x 16
+\i (00:00:35) roam y -16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 32
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:35) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:36) roam y 16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam y -16
+\i (00:00:37) roam end
+\i (00:25:59) exit 
+\t (00:25:59)     Journal end - Thu Apr 15 13:06:11 2021

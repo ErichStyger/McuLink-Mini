@@ -1,0 +1,453 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title "UART Interface to Target"
+Date ""
+Rev ""
+Comp "Hochschule Luzern, Technik & Architektur"
+Comment1 "Drawn by: Peter Allenspach"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mculink_kicad:SN74LVC1T45GW U?
+U 1 1 605DED3D
+P 3000 2900
+AR Path="/603CFF19/605DED3D" Ref="U?"  Part="1" 
+AR Path="/603D0055/605DED3D" Ref="U9"  Part="1" 
+F 0 "U9" H 3200 2550 50  0000 L CNN
+F 1 "SN74LVC1T45GW" H 3050 2450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3000 2450 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH1T45.pdf" H 2100 2250 50  0001 C CNN
+	1    3000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605DED44
+P 3500 2550
+AR Path="/603CFF19/605DED44" Ref="R?"  Part="1" 
+AR Path="/603D0055/605DED44" Ref="R28"  Part="1" 
+F 0 "R28" V 3600 2550 50  0000 C CNN
+F 1 "100k" V 3400 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605DED50
+P 2500 3300
+AR Path="/603CFF19/605DED50" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605DED50" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 2500 3050 50  0001 C CNN
+F 1 "GND" H 2505 3127 50  0000 C CNN
+F 2 "" H 2500 3300 50  0001 C CNN
+F 3 "" H 2500 3300 50  0001 C CNN
+	1    2500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605DED56
+P 2550 2500
+AR Path="/603CFF19/605DED56" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605DED56" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 2550 2250 50  0001 C CNN
+F 1 "GND" H 2555 2327 50  0000 C CNN
+F 2 "" H 2550 2500 50  0001 C CNN
+F 3 "" H 2550 2500 50  0001 C CNN
+	1    2550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605DED5C
+P 2700 2350
+AR Path="/603CFF19/605DED5C" Ref="C?"  Part="1" 
+AR Path="/603D0055/605DED5C" Ref="C40"  Part="1" 
+F 0 "C40" V 2952 2350 50  0000 C CNN
+F 1 "100n" V 2861 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 2200 50  0001 C CNN
+F 3 "~" H 2700 2350 50  0001 C CNN
+	1    2700 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 2500 2550 2350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 605DED63
+P 2900 2300
+AR Path="/603CFF19/605DED63" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605DED63" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 2900 2150 50  0001 C CNN
+F 1 "+3V3" H 2915 2473 50  0000 C CNN
+F 2 "" H 2900 2300 50  0001 C CNN
+F 3 "" H 2900 2300 50  0001 C CNN
+	1    2900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2350 2900 2350
+Wire Wire Line
+	2900 2350 2900 2300
+Wire Wire Line
+	2900 2500 2900 2350
+Connection ~ 2900 2350
+Wire Wire Line
+	3400 2900 3500 2900
+Wire Wire Line
+	3500 2900 3500 2700
+Wire Wire Line
+	3100 2500 3100 2400
+Wire Wire Line
+	3100 2400 3500 2400
+$Comp
+L Device:C C?
+U 1 1 605DED71
+P 3350 2250
+AR Path="/603CFF19/605DED71" Ref="C?"  Part="1" 
+AR Path="/603D0055/605DED71" Ref="C41"  Part="1" 
+F 0 "C41" V 3602 2250 50  0000 C CNN
+F 1 "100n" V 3511 2250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3388 2100 50  0001 C CNN
+F 3 "~" H 3350 2250 50  0001 C CNN
+	1    3350 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605DED77
+P 3200 2250
+AR Path="/603CFF19/605DED77" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605DED77" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 3200 2000 50  0001 C CNN
+F 1 "GND" H 3100 2250 50  0000 C CNN
+F 2 "" H 3200 2250 50  0001 C CNN
+F 3 "" H 3200 2250 50  0001 C CNN
+	1    3200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2400 3500 2250
+Connection ~ 3500 2400
+Wire Wire Line
+	2500 3100 2600 3100
+$Comp
+L power:GND #PWR?
+U 1 1 605DED81
+P 3000 3300
+AR Path="/603CFF19/605DED81" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605DED81" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 3000 3050 50  0001 C CNN
+F 1 "GND" H 3005 3127 50  0000 C CNN
+F 2 "" H 3000 3300 50  0001 C CNN
+F 3 "" H 3000 3300 50  0001 C CNN
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2400 3500 2400
+$Comp
+L Device:R R?
+U 1 1 605DED88
+P 3650 2900
+AR Path="/603CFF19/605DED88" Ref="R?"  Part="1" 
+AR Path="/603D0055/605DED88" Ref="R26"  Part="1" 
+F 0 "R26" V 3750 2900 50  0000 C CNN
+F 1 "10R" V 3550 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 2900 50  0001 C CNN
+F 3 "~" H 3650 2900 50  0001 C CNN
+	1    3650 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3500 2900
+Text GLabel 3550 2400 2    50   Input ~ 0
+IF_VREF
+Wire Wire Line
+	2250 2900 2600 2900
+$Comp
+L mculink_kicad:SN74LVC1T45GW U?
+U 1 1 605E2FDB
+P 3000 4400
+AR Path="/603CFF19/605E2FDB" Ref="U?"  Part="1" 
+AR Path="/603D0055/605E2FDB" Ref="U10"  Part="1" 
+F 0 "U10" H 3200 4050 50  0000 L CNN
+F 1 "SN74LVC1T45GW" H 3050 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3000 3950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH1T45.pdf" H 2100 3750 50  0001 C CNN
+	1    3000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605E2FED
+P 2550 4000
+AR Path="/603CFF19/605E2FED" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605E2FED" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 2550 3750 50  0001 C CNN
+F 1 "GND" H 2555 3827 50  0000 C CNN
+F 2 "" H 2550 4000 50  0001 C CNN
+F 3 "" H 2550 4000 50  0001 C CNN
+	1    2550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605E2FF3
+P 2700 3850
+AR Path="/603CFF19/605E2FF3" Ref="C?"  Part="1" 
+AR Path="/603D0055/605E2FF3" Ref="C42"  Part="1" 
+F 0 "C42" V 2952 3850 50  0000 C CNN
+F 1 "100n" V 2861 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 3700 50  0001 C CNN
+F 3 "~" H 2700 3850 50  0001 C CNN
+	1    2700 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 4000 2550 3850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 605E2FFA
+P 2900 3800
+AR Path="/603CFF19/605E2FFA" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605E2FFA" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 2900 3650 50  0001 C CNN
+F 1 "+3V3" H 2915 3973 50  0000 C CNN
+F 2 "" H 2900 3800 50  0001 C CNN
+F 3 "" H 2900 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3850 2900 3850
+Wire Wire Line
+	2900 3850 2900 3800
+Wire Wire Line
+	2900 4000 2900 3850
+Connection ~ 2900 3850
+Wire Wire Line
+	3400 4400 3500 4400
+Wire Wire Line
+	3100 4000 3100 3900
+Wire Wire Line
+	3100 3900 3500 3900
+$Comp
+L Device:C C?
+U 1 1 605E3008
+P 3350 3750
+AR Path="/603CFF19/605E3008" Ref="C?"  Part="1" 
+AR Path="/603D0055/605E3008" Ref="C43"  Part="1" 
+F 0 "C43" V 3602 3750 50  0000 C CNN
+F 1 "100n" V 3511 3750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3388 3600 50  0001 C CNN
+F 3 "~" H 3350 3750 50  0001 C CNN
+	1    3350 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605E300E
+P 3200 3750
+AR Path="/603CFF19/605E300E" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605E300E" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 3200 3500 50  0001 C CNN
+F 1 "GND" H 3100 3750 50  0000 C CNN
+F 2 "" H 3200 3750 50  0001 C CNN
+F 3 "" H 3200 3750 50  0001 C CNN
+	1    3200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3900 3500 3750
+Connection ~ 3500 3900
+Wire Wire Line
+	2500 4600 2600 4600
+$Comp
+L power:GND #PWR?
+U 1 1 605E3017
+P 3000 4800
+AR Path="/603CFF19/605E3017" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605E3017" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 3000 4550 50  0001 C CNN
+F 1 "GND" H 3005 4627 50  0000 C CNN
+F 2 "" H 3000 4800 50  0001 C CNN
+F 3 "" H 3000 4800 50  0001 C CNN
+	1    3000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3900 3500 3900
+$Comp
+L Device:R R?
+U 1 1 605E301E
+P 3650 4400
+AR Path="/603CFF19/605E301E" Ref="R?"  Part="1" 
+AR Path="/603D0055/605E301E" Ref="R27"  Part="1" 
+F 0 "R27" V 3750 4400 50  0000 C CNN
+F 1 "10R" V 3550 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 4400 50  0001 C CNN
+F 3 "~" H 3650 4400 50  0001 C CNN
+	1    3650 4400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3550 3900 2    50   Input ~ 0
+IF_VREF
+Wire Wire Line
+	2250 4400 2600 4400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 605E334F
+P 2300 4700
+AR Path="/603CFF19/605E334F" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605E334F" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 2300 4550 50  0001 C CNN
+F 1 "+3V3" H 2315 4873 50  0000 C CNN
+F 2 "" H 2300 4700 50  0001 C CNN
+F 3 "" H 2300 4700 50  0001 C CNN
+	1    2300 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4600 2500 4700
+Wire Wire Line
+	2500 4700 2300 4700
+Wire Wire Line
+	2500 3100 2500 3300
+Text GLabel 2250 2900 0    50   Output ~ 0
+FC0_TARGET_RXD
+Text GLabel 2250 4400 0    50   Input ~ 0
+FCO_TARGET_TXD
+Text Notes 6250 850  2    100  ~ 0
+UART Interface to Target
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 605E6544
+P 5550 3000
+F 0 "J7" H 5522 3024 50  0000 R CNN
+F 1 "1x3pos, 100mil pitch" H 5522 2933 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5550 3000 50  0001 C CNN
+F 3 "~" H 5550 3000 50  0001 C CNN
+	1    5550 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2900 4350 2900
+Wire Wire Line
+	4050 4400 4050 3000
+Wire Wire Line
+	4050 3000 4500 3000
+Wire Wire Line
+	3800 4400 4050 4400
+$Comp
+L power:GND #PWR?
+U 1 1 605F5F7F
+P 5200 3250
+AR Path="/603CFF19/605F5F7F" Ref="#PWR?"  Part="1" 
+AR Path="/603D0055/605F5F7F" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 5200 3000 50  0001 C CNN
+F 1 "GND" H 5205 3077 50  0000 C CNN
+F 2 "" H 5200 3250 50  0001 C CNN
+F 3 "" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3250 5200 3100
+Wire Wire Line
+	5200 3100 5350 3100
+$Comp
+L Power_Protection:PESD5V0L5UV D4
+U 1 1 605FC94F
+P 4350 3300
+F 0 "D4" V 4450 3400 50  0000 L CNN
+F 1 "PESD5V0L5UV" V 4550 3400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 4350 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD5V0L5UV D4
+U 2 1 605FC955
+P 4500 3300
+F 0 "D4" H 4568 3346 50  0001 L CNN
+F 1 "PESD5V0L5UV" H 4568 3255 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 4500 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 4500 3300 50  0001 C CNN
+	2    4500 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD5V0L5UV D4
+U 3 1 605FC95B
+P 4650 3300
+F 0 "D4" V 4566 3368 50  0001 L CNN
+F 1 "PESD5V0L5UV" V 4657 3368 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 4650 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 4650 3300 50  0001 C CNN
+	3    4650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD5V0L5UV D4
+U 4 1 605FC961
+P 4800 3300
+F 0 "D4" V 4716 3368 50  0001 L CNN
+F 1 "PESD5V0L5UV" V 4807 3368 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 4800 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 4800 3300 50  0001 C CNN
+	4    4800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD5V0L5UV D4
+U 5 1 605FC967
+P 4950 3300
+F 0 "D4" V 4866 3368 50  0001 L CNN
+F 1 "PESD5V0L5UV" V 4957 3368 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 4950 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 4950 3300 50  0001 C CNN
+	5    4950 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR083
+U 1 1 605FC96D
+P 4350 3400
+F 0 "#PWR083" H 4350 3150 50  0001 C CNN
+F 1 "GND" H 4355 3227 50  0000 C CNN
+F 2 "" H 4350 3400 50  0001 C CNN
+F 3 "" H 4350 3400 50  0001 C CNN
+	1    4350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3200 4350 2900
+Connection ~ 4350 2900
+Wire Wire Line
+	4350 2900 4950 2900
+Wire Wire Line
+	4500 3200 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4650 3000
+Wire Wire Line
+	4650 3200 4650 3000
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 3000 5350 3000
+Wire Wire Line
+	4950 3200 4950 2900
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 2900 5350 2900
+NoConn ~ 4800 3200
+$EndSCHEMATC
