@@ -2535,6 +2535,18 @@
 		)
 	)
 	(junction
+		(at 138.43 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5537db8c-5d49-47c1-86b7-f50bed9ab745")
+	)
+	(junction
+		(at 156.21 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d085c72-b945-41eb-9fb2-73ce781437d5")
+	)
+	(junction
 		(at 148.59 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2664,6 +2676,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 60.96) (xy 156.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee3fe87-7d23-4682-9b13-e3da6359c467")
+	)
+	(wire
+		(pts
 			(xy 44.45 30.48) (xy 50.8 30.48)
 		)
 		(stroke
@@ -2701,16 +2723,6 @@
 			(type default)
 		)
 		(uuid "501ecc85-392e-4d29-bb46-d037b2d54250")
-	)
-	(wire
-		(pts
-			(xy 135.89 50.8) (xy 140.97 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf00cd3-eaad-4983-8214-6b25fb075b49")
 	)
 	(wire
 		(pts
@@ -2754,6 +2766,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 52.07) (xy 138.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6efea2-a019-4030-94cb-510da5c76b91")
+	)
+	(wire
+		(pts
 			(xy 232.41 149.86) (xy 229.87 149.86)
 		)
 		(stroke
@@ -2761,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "9540a247-c2e7-4727-b4cd-3f60e9d28b44")
+	)
+	(wire
+		(pts
+			(xy 138.43 57.15) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95753245-8a4c-42f1-9941-627fa4c76fd4")
 	)
 	(wire
 		(pts
@@ -2854,6 +2886,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 52.07) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c271af6b-add5-4f96-8a87-94f76e1d3b93")
+	)
+	(wire
+		(pts
 			(xy 130.81 92.71) (xy 129.54 92.71)
 		)
 		(stroke
@@ -2941,6 +2983,16 @@
 			(type default)
 		)
 		(uuid "f025fc25-9a72-4e4a-8ea5-dc1cb6116cf8")
+	)
+	(wire
+		(pts
+			(xy 156.21 52.07) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae05f02-6294-44b9-bcdc-b6b26e40923a")
 	)
 	(image
 		(at 200.66 170.18)
@@ -3418,7 +3470,7 @@
 	)
 	(text "Open: Boot from internal FLASH\nClosed: Enable ISP mode (USB or UART)"
 		(exclude_from_sim no)
-		(at 124.46 72.39 0)
+		(at 143.002 38.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3440,7 +3492,7 @@
 	)
 	(text "Enable ISP mode"
 		(exclude_from_sim no)
-		(at 142.24 48.26 0)
+		(at 167.386 42.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3717,7 +3769,7 @@
 	)
 	(global_label "PIO0_5-ISP_EN-LED1_CTRL"
 		(shape bidirectional)
-		(at 140.97 50.8 0)
+		(at 158.75 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3726,7 +3778,7 @@
 		)
 		(uuid "5fbfeac0-d06d-440a-aeac-469d82eba99a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 50.8 0)
+			(at 158.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,149 +5168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 135.89 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006044b880")
-		(property "Reference" "J3"
-			(at 138.1252 54.7116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 138.1252 57.023 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "distrelec#" ""
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58344f8c-2941-4614-a6ec-ed35f7d29aea")
-		)
-		(pin "2"
-			(uuid "66da3958-bd10-4b8f-9f96-6ffc4fdd9cae")
-		)
-		(instances
-			(project "MCU-Link_MR"
-				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006044da6d")
-		(property "Reference" "#PWR039"
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 136.017 65.3542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fb17f37-a4a7-4043-86dd-b629d7ea07d4")
-		)
-		(instances
-			(project "MCU-Link_MR"
-				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mculink_kicad:KMR221GLFS")
 		(at 139.7 92.71 0)
 		(unit 1)
@@ -5468,6 +5377,221 @@
 			(project "MCU-Link_MR"
 				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65f27209-b2be-4e1d-a92a-1167a2056ad4")
+		(property "Reference" "#PWR097"
+			(at 156.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.337 69.1642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "094eef07-09a0-4a7c-b08e-2776827d9f4f")
+		)
+		(instances
+			(project "MCU-Link_MR"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6950996c-ef71-4324-8ae1-3dc93c154e3a")
+		(property "Reference" "#PWR039"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.557 67.8942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "948a02fe-a94d-4138-803e-23f48e5c0b6e")
+		)
+		(instances
+			(project "MCU-Link_MR"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mculink_kicad:KMR221GLFS")
+		(at 147.32 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b22ef14a-d2ba-43f4-a859-3bccf537afd9")
+		(property "Reference" "SW3"
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KMR221GLFS"
+			(at 147.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "McuOnEclipse:SW_C_K_KMR2"
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "distrelec#" ""
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32c83712-f2b0-42ba-8d5e-f0049630346d")
+		)
+		(pin "2"
+			(uuid "565a500a-5604-49fd-ae0c-c0705234620a")
+		)
+		(pin "3"
+			(uuid "2d52b454-1076-4d95-b2f8-12688711ef39")
+		)
+		(pin "4"
+			(uuid "8df37653-7029-470f-8925-1097d48f5b64")
+		)
+		(pin "5"
+			(uuid "b403bfdb-2961-4121-94f1-fc7b14eb854e")
+		)
+		(instances
+			(project "MCU-Link_MR"
+				(path "/5d025764-753a-4b80-8d3d-c9a8a22c9527/00000000-0000-0000-0000-0000603cfdf2"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
